@@ -14,7 +14,7 @@ const MyForm = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await axios.post("http://localhost:4000/contact", {
+      await axios.post("https://thunderous-kheer-32f944.netlify.app/contact", {
         name,
         email,
         message
