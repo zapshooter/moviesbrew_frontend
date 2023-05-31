@@ -12,7 +12,7 @@ const Login = ({onLogin}) => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await axios.post("http://localhost:4000/login", {
+      await axios.post("https://thunderous-kheer-32f944.netlify.app/login", {
         email,
         password
       })
